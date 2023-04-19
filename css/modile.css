@@ -1,5 +1,5 @@
 @media screen and (max-width: 428px) {
-   
+
     .container {
         width: 398px;
         padding-left: 15px;
@@ -19,32 +19,50 @@
         flex-direction: column;
         align-items: center;
 
+
+    }
+
+    .contener-features li {
+        margin-right: 0;
     }
 
     .lists {
+        font-family: 'Roboto', sans-serif;
         text-align: center;
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 36px;
+        font-weight: 700;
         letter-spacing: 0.02em;
-        line-height: 1.2;
+        line-height: 1.11;
         color: #2e2f42;
         margin-top: 0;
         margin-bottom: 8px;
+        text-transform: capitalize;
     }
 
     .lead {
         color: #434455;
         font-size: 16px;
         line-height: 1.5;
-        font-weight: 400;
+        font-weight: 500;
         letter-spacing: 0.02em;
         margin-top: 0;
         margin-bottom: 72px;
 
     }
 
+    .features-list-img {
+        display: none;
+    }
+
+
+
     /* --------------------------- What are we doing----------------------- */
 
+    .contener-main {
+        display: none;
+    }
+
+    /*--------------------------- Our Team---------------------- */
     .our-team {
         align-content: center;
         background-color: #f4f4fd;
@@ -89,6 +107,68 @@
         align-items: center;
 
     }
+
+    .blok {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .text {
+        margin-bottom: 72px;
+        letter-spacing: 0.03em;
+    }
+
+        .text {
+            color: #F4F4FD;
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 400;
+            letter-spacing: 0.03em;
+        }
+
+    .footer-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-list {
+        margin-bottom: 72px;
+    }
+
+
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .form-subscribe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+        .subscribe-inpyt {
+            border: 1px solid #FFFFFF;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+            border-radius: 4px;
+            padding: 8px 16px;
+            width: 398px;
+            height: 40px;
+            outline: transparent;
+            background-color: #2E2F42;
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+        }
 
 
 
