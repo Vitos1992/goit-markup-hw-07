@@ -25,8 +25,6 @@
         font-style: normal;
         font-family: "Roboto",
             sans-serif;
-        /* padding-top: 24px;
-        padding-bottom: 24px; */
         text-transform: initial;
         transition: color 250ms linear;
     }
@@ -40,8 +38,6 @@
         font-style: normal;
         font-family: "Roboto",
             sans-serif;
-        /* padding-top: 24px;
-        padding-bottom: 24px; */
         text-transform: initial;
         transition: color 250ms linear;
 
@@ -56,8 +52,6 @@
             sans-serif;
         letter-spacing: 0.02em;
         text-transform: none;
-        /* padding-top: 24px;
-        padding-bottom: 27px; */
         transition: color 250ms linear;
 
     }
@@ -307,8 +301,10 @@
     }
 
     .subscribe-inpyt{
-        display: none;
+        width: 398px;
     }
+
+ 
 
 
 

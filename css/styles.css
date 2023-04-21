@@ -222,6 +222,7 @@ img {
   padding: 24px 24px 40px 40px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 
 
 }
@@ -260,11 +261,11 @@ img {
   align-items: flex-start;
 }
 
-.webstudio-list-mob {
+/* .webstudio-list-mob {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 /* --------------------------Main---------------------------------------- */
 
