@@ -38,7 +38,7 @@
         font-style: normal;
         font-family: "Roboto",
             sans-serif;
-         text-transform: initial;
+        text-transform: initial;
         transition: color 250ms linear;
 
     }
@@ -90,6 +90,7 @@
         margin: 0;
 
     }
+
 
     .mobile-nav {
         display: flex;
@@ -332,7 +333,7 @@
 /* ---------------------------tablet------------------------------------- */
 
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .container {
         width: 638px;
@@ -407,6 +408,11 @@
         display: none;
     }
 
+    /* ----------------------MOB------------------- */
+    
+       .mob-menu{
+        display: none;
+       }
 
     /* ---------------------- Main --------------------------- */
 
@@ -435,7 +441,7 @@
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
-        margin-bottom: 72px;
+        margin-bottom: 32px;
         margin-left: auto;
         margin-right: auto;
 
@@ -450,8 +456,10 @@
 
     .cont-features {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 72px 24px;
         align-items: center;
+        justify-content: space-between;
 
 
     }
@@ -462,7 +470,6 @@
 
     .lists {
         font-family: 'Roboto', sans-serif;
-        text-align: center;
         font-size: 36px;
         font-weight: 700;
         letter-spacing: 0.02em;
@@ -480,7 +487,8 @@
         font-weight: 500;
         letter-spacing: 0.02em;
         margin-top: 0;
-        margin-bottom: 72px;
+       
+        
 
     }
 
