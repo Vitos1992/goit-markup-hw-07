@@ -25,7 +25,6 @@
         font-style: normal;
         font-family: "Roboto",
             sans-serif;
-
         text-transform: initial;
         transition: color 250ms linear;
     }
@@ -39,8 +38,7 @@
         font-style: normal;
         font-family: "Roboto",
             sans-serif;
-
-        text-transform: initial;
+         text-transform: initial;
         transition: color 250ms linear;
 
     }
@@ -54,7 +52,6 @@
             sans-serif;
         letter-spacing: 0.02em;
         text-transform: none;
-
         transition: color 250ms linear;
 
     }
@@ -316,10 +313,16 @@
         gap: 16px;
     }
 
+
     .modal {
         width: 392px;
         height: 584px;
     }
+
+    .subscribe-inpyt {
+        width: 398px;
+    }
+
 
 
 
@@ -327,7 +330,7 @@
 }
 
 /* ---------------------------tablet------------------------------------- */
-  
+
 
 @media screen and (min-width: 768px) {
 
