@@ -24,24 +24,26 @@
     <header class="page-header">
 
         <div class="contener-header container">
-            <nav class="list site-nav-logo">
-                <a class="link list-nav" href="./index.html">Web<span class="studio">Studio</span></a>
-                <ul class="site-nav list">
-                    <li class="nav"><a class="hov-foc link underline" href="./index.html">Studio</a></li>
-                    <li class="nav"><a class="hov-foc link" href="./portfolio.html" target="_blank">Portfolio</a></li>
-                    <li class="nav"><a class="hov-foc link" href="">Contacts</a></li>
-                </ul>
-            </nav>
-
-            <!-- Address ------------------------------------------------------>
-
-            <address class="site-nav list">
-
-                <ul class="site-nav list">
-                    <li class="nav"><a class="address link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="nav"><a class="address link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
+            <div class="tabel-nav">
+                <nav class="list site-nav-logo">
+                    <a class="link list-nav" href="./index.html">Web<span class="studio">Studio</span></a>
+                    <ul class="site-nav list">
+                        <li class="nav"><a class="hov-foc link underline" href="./index.html">Studio</a></li>
+                        <li class="nav"><a class="hov-foc link" href="./portfolio.html" target="_blank">Portfolio</a></li>
+                        <li class="nav"><a class="hov-foc link" href="">Contacts</a></li>
+                    </ul>
+                </nav>
+                
+                <!-- Address ------------------------------------------------------>
+                
+                <address class="site-nav  list">
+                
+                    <ul class="nav-address list">
+                        <li class="nav-address table"><a class="address  table link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="nav-address table"><a class="address  table link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+            </div>
 
             <button type="button" data-menu-open class="open-mob">
                 <svg class="" width="32" height="22">
@@ -70,7 +72,7 @@
                 </nav>
             </div>
 
-            <div>
+            <div class="mobile-nav"> 
                 <address>
                     <ul class="site-address-mob list">
                         <li class="nav"><a class="address-mob link" href="tel:+110001111111">+11 (000) 111-11-11</a>
@@ -581,3 +583,278 @@
 </body>
 
 </html>
+
+
+
+@media screen and (max-width: 768px) {
+
+.container {
+width: 638px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
+/* -----------------header------------------- */
+
+.contener-header {
+display: flex;
+justify-content: space-between;
+padding: 0;
+
+}
+
+.address-mob {
+color: #434455;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.5;
+letter-spacing: 0.02em;
+font-style: normal;
+font-family: "Roboto",
+sans-serif;
+
+text-transform: initial;
+transition: color 250ms linear;
+}
+
+.mobile {
+color: #434455;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+font-style: normal;
+font-family: "Roboto",
+sans-serif;
+
+text-transform: initial;
+transition: color 250ms linear;
+
+}
+
+.hov-foc-mob {
+color: #2E2F42;
+font-size: 36px;
+line-height: 1.5;
+font-weight: 700;
+font-family: "Roboto",
+sans-serif;
+letter-spacing: 0.02em;
+text-transform: none;
+
+transition: color 250ms linear;
+
+}
+
+.list-nav {
+margin: 0;
+}
+
+.site-nav-logo {
+padding: 24px 16px 22px 16px;
+
+}
+
+.underline::after {
+content: '';
+display: none;
+}
+
+/* ----------------------MOB------------------- */
+
+.mob-menu{
+display: none;
+}
+
+/* ---------------------- Main --------------------------- */
+
+.items {
+width: 100%;
+background-color: #2E2F42;
+text-align: center;
+padding-top: 112px;
+padding-bottom: 112px;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)),
+url(../images/Dark-tabley.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+}
+
+.item {
+display: block;
+width: 320px;
+font-size: 36px;
+font-weight: 700;
+color: #FFFFFF;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+margin-bottom: 32px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+/*------------------------- features-------------------------- */
+
+.contener-features {
+padding-top: 96px;
+padding-bottom: 96px;
+}
+
+.cont-features {
+display: flex;
+flex-wrap: wrap;
+gap: 72px 24px;
+align-items: center;
+justify-content: space-between;
+
+
+}
+
+.contener-features li {
+margin-right: 0;
+}
+
+.lists {
+font-family: 'Roboto', sans-serif;
+font-size: 36px;
+font-weight: 700;
+letter-spacing: 0.02em;
+line-height: 1.11;
+color: #2e2f42;
+margin-top: 0;
+margin-bottom: 8px;
+text-transform: capitalize;
+}
+
+.lead {
+color: #434455;
+font-size: 16px;
+line-height: 1.5;
+font-weight: 500;
+letter-spacing: 0.02em;
+margin-top: 0;
+
+
+
+}
+
+.features-list-img {
+display: none;
+}
+
+
+
+/* --------------------------- What are we doing----------------------- */
+
+.contener-main {
+display: none;
+}
+
+/*--------------------------- Our Team---------------------- */
+.our-team {
+align-content: center;
+background-color: #f4f4fd;
+padding-top: 96px;
+padding-bottom: 96px;
+}
+
+.contener-out {
+display: flex;
+flex-wrap: wrap;
+gap: 72px 24px;
+align-items: center;
+justify-content: center;
+}
+
+/*-------------------------- customers-------------------------- */
+
+.customers-team {
+padding-top: 96px;
+padding-bottom: 96px;
+}
+
+.customers-logo-list {
+display: flex;
+flex-wrap: wrap;
+row-gap: 72px;
+column-gap: 16px;
+
+}
+
+/* ------------------------footer---------------------- */
+
+.footer {
+background-color: #2E2F42;
+padding-top: 96px;
+padding-bottom: 96px;
+}
+
+.blok-wrap {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.blok {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.text {
+color: #F4F4FD;
+font-size: 16px;
+line-height: 1.5;
+font-weight: 400;
+letter-spacing: 0.03em;
+margin-bottom: 72px;
+}
+
+.footer-wrap {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.social-list {
+margin-bottom: 72px;
+}
+
+
+.subscribe {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.subscribe-inpyt {
+width: 398px;
+}
+
+.form-subscribe {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+}
+
+.modal {
+width: 408px;
+height: 584px;
+}
+
+}
