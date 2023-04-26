@@ -252,7 +252,7 @@ img {
 
 .webstudio-list-mob {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 56px;
   margin-bottom: 20px;

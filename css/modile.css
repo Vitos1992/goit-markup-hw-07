@@ -1,8 +1,8 @@
-@media screen and (min-width: 320px),
+@media screen and (min-width: 200px),
 (min-width: 428px) {
 
     .container {
-        max-width: 426px;
+        min-width: 426px;
 
 
     }
@@ -349,8 +349,6 @@
             sans-serif;
         letter-spacing: 0.02em;
         text-transform: none;
-        padding-top: 24px;
-        padding-bottom: 27px;
         transition: color 250ms linear;
 
     }
@@ -597,9 +595,7 @@
 
     .blok {
         display: block;
-        margin-right: 24px;
-        margin-bottom: 72px;
-        margin-left: 0;
+        margin: 0;
 
     }
 
@@ -625,6 +621,7 @@
     .tabel-footer {
         display: flex;
         justify-content: flex-start;
+        gap: 72px 24px;
 
     }
 
@@ -686,7 +683,7 @@
     .nav {
         display: block;
         padding-top: 24px;
-        padding-bottom: 24px;
+        padding-bottom: 27px;
         margin-right: 40px;
     }
 
@@ -700,23 +697,6 @@
         line-height: 1.5;
     
     }
-
-
-    .underline {
-        position: relative;
-    }
-
-    .underline::after {
-        content: '';
-        position: absolute;
-        background-color: #404BBF;
-        border-radius: 4px;
-        height: 4px;
-        width: 100%;
-        left: 0;
-        bottom: 0;
-    }
-
    
     .site-nav-logo {
         display: flex;
@@ -726,6 +706,21 @@
     .nav-address .table:last-child {
         margin-right: 0;
     }
+
+    .underline {
+         position: relative;
+    }
+    
+     .underline::after {
+         content: '';
+         position: absolute;
+         background-color: #404BBF;
+         border-radius: 4px;
+         height: 4px;
+         width: 100%;
+         left: 0;
+         bottom: 0;
+     }
 
 
 
@@ -921,6 +916,7 @@
     .tabel-footer {
         display: flex;
         justify-content: center;
+        gap: 0;
         
 
     }
