@@ -397,6 +397,10 @@
     }
 
     .nav-address {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
         padding: 0;
         margin: 0;
 
@@ -406,22 +410,22 @@
         display: block;
     }
 
+    .table{
+        margin-bottom: 12px;
+    }
+
+    .nav-address .table:last-child{
+        margin-bottom: 0;
+    }
+
     .tabel-nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
-    .table {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        padding: 0;
-        margin-right: 0;
-    }
 
-    .nav.address,
-    .address:last-child {
+    .nav.address .address:last-child {
         margin-bottom: 0;
     }
 
@@ -650,7 +654,7 @@
 @media screen and (min-width: 1158px) {
 
     .container {
-        max-width: 1158px;
+        min-width: 1158px;
 
     }
 
@@ -661,9 +665,17 @@
     }
 
     .contener-header {
+        display: revert; 
+    }
+
+    .table{
+        display: block;
+        margin-right: 40px;
+        
+    }
+
+    .tabel-nav{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 
 
@@ -679,13 +691,15 @@
         margin-right: 40px;
     }
 
-    .address {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        margin-left: 40px;
 
+    .address {
+        padding-top: 24px;
+        padding-bottom: 27px;
+        margin: 0;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        line-height: 1.5;
+    
     }
 
 
@@ -702,27 +716,26 @@
         width: 100%;
         left: 0;
         bottom: 0;
-
     }
 
+   
     .site-nav-logo {
         display: flex;
-        padding: 0;
-    }
-
-    .site-nav,
-    .site-nav-logo {
-        display: flex;
-        justify-content: space-between;
         align-items: center;
+    }
+
+    .nav-address .table:last-child {
+        margin-right: 0;
     }
 
 
 
     .nav-address {
-        display: block;
+        display: flex;
         align-items: center;
         position: relative;
+        margin-left: 320px;
+        
     }
 
     /* --------------------------Main---------------------------------------- */
@@ -899,12 +912,14 @@
         display: flex;
         flex-direction: unset;
         justify-content: space-between;
-        align-items: center;
+        align-items: stretch;
         width: 100%;
+        min-height: 100%;
     }
 
     .tabel-footer {
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         
 
     }
