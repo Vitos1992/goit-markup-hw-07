@@ -732,6 +732,7 @@
     .nav-address {
         display: flex;
         flex-direction: row;
+     
         align-items: center;
         position: relative;
         margin-left: 320px;
