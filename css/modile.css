@@ -592,8 +592,6 @@
 
     .footer-wrap {
         display: block;
-
-
     }
 
 
@@ -671,6 +669,7 @@
     .table{
         display: block;
         margin-right: 40px;
+        margin-bottom: 0;
         
     }
 
@@ -732,6 +731,7 @@
 
     .nav-address {
         display: flex;
+        flex-direction: row;
         align-items: center;
         position: relative;
         margin-left: 320px;
