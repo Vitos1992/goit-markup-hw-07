@@ -3,8 +3,6 @@
 
     .container {
         min-width: 426px;
-
-
     }
 
     /* -----------------header------------------- */
@@ -68,12 +66,6 @@
         padding: 24px 16px 22px 16px;
 
     }
-
-    .underline::after {
-        content: '';
-        display: none;
-    }
-
 
 
     /*----------------------- mob-menu-------------------- */
@@ -165,6 +157,29 @@
         padding-bottom: 96px;
     }
 
+    .boxtwo{
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+
+    .contener-botton {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 48px;
+        gap: 16px 24px;
+    }
+
+    .box-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 48px;
+    }
+
     .cont-features {
         display: flex;
         flex-direction: column;
@@ -222,6 +237,7 @@
         background-color: #f4f4fd;
         padding-top: 96px;
         padding-bottom: 96px;
+        min-width: min-content;
     }
 
     .contener-out {
@@ -253,6 +269,7 @@
         background-color: #2E2F42;
         padding-top: 96px;
         padding-bottom: 96px;
+        min-width: min-content;
     }
 
     .blok-wrap {
@@ -297,6 +314,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        width: 100%;
 
     }
 
@@ -408,11 +426,11 @@
         display: block;
     }
 
-    .table{
+    .table {
         margin-bottom: 12px;
     }
 
-    .nav-address .table:last-child{
+    .nav-address .table:last-child {
         margin-bottom: 0;
     }
 
@@ -425,6 +443,22 @@
 
     .nav.address .address:last-child {
         margin-bottom: 0;
+    }
+
+    .underline {
+        position: relative;
+    }
+    
+    .underline::after {
+        content: '';
+        position: absolute;
+        background-color: #404BBF;
+        border-radius: 4px;
+        height: 4px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+    
     }
 
     /*----------------------- mob-menu-------------------- */
@@ -480,6 +514,15 @@
 
     /*------------------------- features-------------------------- */
 
+
+    .contener-botton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 64px;
+        gap: 24px;
+    }
+
     .contener-features {
         padding-top: 96px;
         padding-bottom: 96px;
@@ -529,6 +572,9 @@
     /*--------------------------- What are we doing------------------------------------------------------ */
 
 
+    .our-team{
+        min-width: min-content;
+    }
 
     .webstudio-list {
         display: flex;
@@ -653,24 +699,41 @@
 
     }
 
+    .boxtwo {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+
+
+
     /* ------------------------Header Web Studio------------------------ */
+    
+        .box-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: unset;
+            justify-content: space-between;
+            gap: 48px 24px;
+        }
+    
+
 
     .page-header {
         border-bottom: 1px solid #E7E9FC;
     }
 
     .contener-header {
-        display: revert; 
+        display: revert;
     }
 
-    .table{
+    .table {
         display: block;
         margin-right: 40px;
         margin-bottom: 0;
-        
+
     }
 
-    .tabel-nav{
+    .tabel-nav {
         display: flex;
     }
 
@@ -695,9 +758,9 @@
         font-size: 16px;
         letter-spacing: 0.02em;
         line-height: 1.5;
-    
+
     }
-   
+
     .site-nav-logo {
         display: flex;
         align-items: center;
@@ -708,30 +771,46 @@
     }
 
     .underline {
-         position: relative;
+        position: relative;
     }
-    
-     .underline::after {
-         content: '';
-         position: absolute;
-         background-color: #404BBF;
-         border-radius: 4px;
-         height: 4px;
-         width: 100%;
-         left: 0;
-         bottom: 0;
-     }
+
+    .underline::after {
+        content: '';
+        position: absolute;
+        background-color: #404BBF;
+        border-radius: 4px;
+        height: 4px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+    }
 
 
 
     .nav-address {
         display: flex;
         flex-direction: row;
-     
+
         align-items: center;
         position: relative;
         margin-left: 320px;
-        
+
+    }
+
+    .underline {
+        position: relative;
+    }
+    
+    .underline::after {
+        content: '';
+        position: absolute;
+        background-color: #404BBF;
+        border-radius: 4px;
+        height: 4px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+    
     }
 
     /* --------------------------Main---------------------------------------- */
@@ -893,6 +972,7 @@
 
     .footer {
         background-color: #2E2F42;
+        ;
         padding-top: 101px;
         padding-bottom: 100px;
     }
@@ -917,7 +997,6 @@
         display: flex;
         justify-content: center;
         gap: 0;
-        
 
     }
 
