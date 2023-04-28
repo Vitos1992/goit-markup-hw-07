@@ -71,9 +71,13 @@
 
     }
 
-    .underline::after{
-        content: '';
+    .underline{
+        color: #4D5AE5;
         
+    }
+
+    .underline::after{
+        display: none;
     }
 
 
