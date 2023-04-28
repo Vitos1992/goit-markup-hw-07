@@ -464,6 +464,7 @@
     }
 
     .underline::after {
+        display: block;
         content: '';
         position: absolute;
         background-color: #404BBF;
@@ -481,8 +482,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: unset;
-        gap: 72px 24px;
+        /* gap: 72px 24px; */
     }
+
 
     .table-wrap {
         width: 735px;
@@ -491,7 +493,8 @@
     }
 
     .box-list {
-        flex-basis: calc((100% - 24px) /2);
+        width: calc((100% - 24px) / 2);
+        /* flex-basis: calc((100% - 24px) /2); */
         max-width: 356px;
     }
 
