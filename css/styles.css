@@ -182,7 +182,7 @@ img {
   color: #404BBF;
 }
 
-/*----------------------- mob-menu-------------------- */
+/*----------------------- mob-menu----------------------------------------- */
 
 .open-mob {
   display: none;
@@ -258,7 +258,7 @@ img {
 
 .webstudio-list-mob {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 56px;
   margin-bottom: 20px;
